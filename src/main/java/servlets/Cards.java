@@ -10,7 +10,7 @@ public class Cards {
 
     public Cards(){
         Faker faker = new Faker(new Locale("ru"));
-        authorName = faker.book().author();
+        authorName = faker.book().publisher();
         title = faker.book().title();
     }
 
